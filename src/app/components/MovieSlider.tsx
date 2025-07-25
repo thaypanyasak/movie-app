@@ -11,7 +11,7 @@ interface MovieSliderProps {
   isMovie: boolean;
   onCardClick: (item: Movie | TVSeries) => void;
   sliceLimit?: number;
-  settings?: any;
+  settings?: Record<string, unknown>;
 }
 
 const defaultSettings = {
